@@ -1,0 +1,1224 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5749855400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Bank manager should login and add customer successfully",
+        "description": "",
+        "id": "bank-manager-should-add-customer-successfully-and-open-account-successfully.;bank-manager-should-login-and-add-customer-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 841328500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 204659000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on homepage",
+            "match": {
+              "location": "BankManagerActions.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104939700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Bank Manager Login Tab",
+            "match": {
+              "location": "BankManagerActions.userClicksOnBankManagerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118187700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on add customer tab",
+            "match": {
+              "location": "BankManagerActions.userClickOnAddCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271147500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter firstame \u003c\"James\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterFirstame(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122119100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter lastname \u003c\"Bond\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bond",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111979000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter postcode \u003c\"SU38UN\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SU38UN",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterPostcode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72319700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on add customer button",
+            "match": {
+              "location": "BankManagerActions.userClickOnAddCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should see customer added successfully message",
+            "match": {
+              "location": "BankManagerActions.userShouldSeeCustomerAddedSuccessfullyMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30544000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should accept alert",
+            "match": {
+              "location": "BankManagerActions.userShouldAcceptAlert()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2320467200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Customer should login and logout successfully",
+        "description": "",
+        "id": "bank-manager-should-add-customer-successfully-and-open-account-successfully.;customer-should-login-and-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 856735800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User is on homepage",
+            "match": {
+              "location": "BankManagerActions.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80414800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User clicks on Bank Manager Login Tab",
+            "match": {
+              "location": "BankManagerActions.userClicksOnBankManagerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246229700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User click on add customer tab",
+            "match": {
+              "location": "BankManagerActions.userClickOnAddCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199417600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User enter firstame \u003c\"James\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterFirstame(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100327200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enter lastname \u003c\"Bond\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bond",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128092300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User enter postcode \u003c\"SU38UN\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SU38UN",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterPostcode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67492500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User click on add customer button",
+            "match": {
+              "location": "BankManagerActions.userClickOnAddCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should see customer added successfully message",
+            "match": {
+              "location": "BankManagerActions.userShouldSeeCustomerAddedSuccessfullyMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45844600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User should accept alert",
+            "match": {
+              "location": "BankManagerActions.userShouldAcceptAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95693800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User click on home button",
+            "match": {
+              "location": "BankManagerActions.userClickOnHomeButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61973700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User clicks on customer login tab",
+            "match": {
+              "location": "CustomerActions.userClicksOnCustomerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 360794000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User search for customer from dropdown \u003c\"6\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 41
+                }
+              ],
+              "location": "CustomerActions.userSearchForCustomerFromDropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72022000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User click on login button",
+            "match": {
+              "location": "CustomerActions.userClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133454200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User should see logout button and logout successfully\u003c\"James Bond\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James Bond",
+                  "offset": 55
+                }
+              ],
+              "location": "CustomerActions.userShouldSeeLogoutButtonAndLogoutSuccessfully(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@Sanity,"
+          },
+          {
+            "line": 35,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2398809800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Customer should deposit money successfully",
+        "description": "",
+        "id": "bank-manager-should-add-customer-successfully-and-open-account-successfully.;customer-should-deposit-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 770991400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Given User is on homepage",
+            "match": {
+              "location": "CustomerActions.givenUserIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66963100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User clicks on Bank Manager Login Tab",
+            "match": {
+              "location": "BankManagerActions.userClicksOnBankManagerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120525900,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User click on add customer tab",
+            "match": {
+              "location": "BankManagerActions.userClickOnAddCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178715100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User enter firstame \u003c\"James\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterFirstame(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95215300,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User enter lastname \u003c\"Bond\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bond",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117598300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User enter postcode \u003c\"SU38UN\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SU38UN",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterPostcode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68166000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User click on add customer button",
+            "match": {
+              "location": "BankManagerActions.userClickOnAddCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User should see customer added successfully message",
+            "match": {
+              "location": "BankManagerActions.userShouldSeeCustomerAddedSuccessfullyMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21146700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User should accept alert",
+            "match": {
+              "location": "BankManagerActions.userShouldAcceptAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120501700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User click on home button",
+            "match": {
+              "location": "BankManagerActions.userClickOnHomeButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66698100,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User clicks on Bank Manager Login Tab",
+            "match": {
+              "location": "BankManagerActions.userClicksOnBankManagerLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54848000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User clicks on open account tab",
+            "match": {
+              "location": "BankManagerActions.userClicksOnOpenAccountTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486615400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User select customer search \u003c\"6\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 30
+                }
+              ],
+              "location": "BankManagerActions.userSelectCustomerSearch(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215175000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User select currency \u003c\"pound\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pound",
+                  "offset": 23
+                }
+              ],
+              "location": "BankManagerActions.userSelectCurrency(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63093700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User click on process button",
+            "match": {
+              "location": "BankManagerActions.userClickOnProcessButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13322200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User should see customer account details \u003c\"Account created successfully with account Number :1016\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account created successfully with account Number :1016",
+                  "offset": 43
+                }
+              ],
+              "location": "BankManagerActions.userShouldSeeCustomerAccountDetails(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69291900,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User click on home button",
+            "match": {
+              "location": "BankManagerActions.userClickOnHomeButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62940300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User clicks on customer login tab",
+            "match": {
+              "location": "CustomerActions.userClicksOnCustomerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 275134700,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User search for customer from dropdown \u003c\"6\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 41
+                }
+              ],
+              "location": "CustomerActions.userSearchForCustomerFromDropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70139100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User click on login button",
+            "match": {
+              "location": "CustomerActions.userClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189832700,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User click on deposit money tab",
+            "match": {
+              "location": "CustomerActions.userClickOnDepositMoneyTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136787100,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User enter amount \u003c\"100\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 20
+                }
+              ],
+              "location": "CustomerActions.userEnterAmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58773700,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "User click on deposit amount button",
+            "match": {
+              "location": "CustomerActions.userClickOnDepositAmountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31008200,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "User should see money deposited successfully message",
+            "match": {
+              "location": "CustomerActions.userShouldSeeMoneyDepositedSuccessfullyMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 52,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2263022100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "Customer should withdraw money successfully",
+        "description": "",
+        "id": "bank-manager-should-add-customer-successfully-and-open-account-successfully.;customer-should-withdraw-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 806186600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27200,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Given User is on homepage",
+            "match": {
+              "location": "CustomerActions.givenUserIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82515100,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "User clicks on Bank Manager Login Tab",
+            "match": {
+              "location": "BankManagerActions.userClicksOnBankManagerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110427800,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User click on add customer tab",
+            "match": {
+              "location": "BankManagerActions.userClickOnAddCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177880200,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "User enter firstame \u003c\"James\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterFirstame(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100540200,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "User enter lastname \u003c\"Bond\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bond",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113868400,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "User enter postcode \u003c\"SU38UN\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SU38UN",
+                  "offset": 22
+                }
+              ],
+              "location": "BankManagerActions.userEnterPostcode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75166900,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "User click on add customer button",
+            "match": {
+              "location": "BankManagerActions.userClickOnAddCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25600,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User should see customer added successfully message",
+            "match": {
+              "location": "BankManagerActions.userShouldSeeCustomerAddedSuccessfullyMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22975200,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "User should accept alert",
+            "match": {
+              "location": "BankManagerActions.userShouldAcceptAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110695800,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "User click on home button",
+            "match": {
+              "location": "BankManagerActions.userClickOnHomeButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144124600,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "User clicks on Bank Manager Login Tab",
+            "match": {
+              "location": "BankManagerActions.userClicksOnBankManagerLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69239300,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "User clicks on open account tab",
+            "match": {
+              "location": "BankManagerActions.userClicksOnOpenAccountTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278528500,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "User select customer search \u003c\"6\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 30
+                }
+              ],
+              "location": "BankManagerActions.userSelectCustomerSearch(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200485400,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "User select currency \u003c\"pound\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pound",
+                  "offset": 23
+                }
+              ],
+              "location": "BankManagerActions.userSelectCurrency(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55423300,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "User click on process button",
+            "match": {
+              "location": "BankManagerActions.userClickOnProcessButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10851700,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "User should see customer account details \u003c\"Account created successfully with account Number :1016\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account created successfully with account Number :1016",
+                  "offset": 43
+                }
+              ],
+              "location": "BankManagerActions.userShouldSeeCustomerAccountDetails(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60389400,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "User click on home button",
+            "match": {
+              "location": "BankManagerActions.userClickOnHomeButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52769000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "User clicks on customer login tab",
+            "match": {
+              "location": "CustomerActions.userClicksOnCustomerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262263900,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "User search for customer from dropdown \u003c\"6\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 41
+                }
+              ],
+              "location": "CustomerActions.userSearchForCustomerFromDropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66162500,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "User click on login button",
+            "match": {
+              "location": "CustomerActions.userClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190276400,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "User click on deposit money tab",
+            "match": {
+              "location": "CustomerActions.userClickOnDepositMoneyTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160356700,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "User enter amount \u003c\"100\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 20
+                }
+              ],
+              "location": "CustomerActions.userEnterAmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66321000,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "User click on deposit amount button",
+            "match": {
+              "location": "CustomerActions.userClickOnDepositAmountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31598200,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "User should see money deposited successfully message",
+            "match": {
+              "location": "CustomerActions.userShouldSeeMoneyDepositedSuccessfullyMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59927000,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "User should click on withdrawal tab",
+            "match": {
+              "location": "CustomerActions.userShouldClickOnWithdrawalTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2144798400,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "User enter withdraw amount \u003c\"50\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 29
+                }
+              ],
+              "location": "CustomerActions.userEnterWithdrawAmount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102817800,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "User click on withdraw button",
+            "match": {
+              "location": "CustomerActions.userClickOnWithdrawButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50929600,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "User should see withdrawal successful message",
+            "match": {
+              "location": "CustomerActions.userShouldSeeWithdrawalSuccessfulMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 79,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Bank manager should add customer successfully and open account successfully.",
+    "description": "",
+    "id": "bank-manager-should-add-customer-successfully-and-open-account-successfully.",
+    "keyword": "Feature",
+    "uri": "bankmanager.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BankManagerAddCustomer"
+      }
+    ]
+  }
+]
